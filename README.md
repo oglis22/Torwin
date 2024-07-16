@@ -1,5 +1,5 @@
 # Torwin
-Minecraft reverse proxy that can intercept packages from scratch
+Minecraft reverse proxy (from scratch) that can intercept packages from scratch
 
 <br>
 
