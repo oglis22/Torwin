@@ -16,12 +16,12 @@ Minecraft reverse proxy (from scratch) that can intercept packages.
 1. C→S: Handshake with Next State set to 2 (login)
 2. C→S: Login Start
 3. S→C: Encryption Request
-Client auth (if enabled)
-C→S: Encryption Response
-Server auth (if enabled)
-Both enable encryption
-S→C: Set Compression (optional)
-S→C: Login Success
-C→S: Login Acknowledged
+4. Client auth (if enabled)
+5. C→S: Encryption Response
+6. Server auth (if enabled)
+7. Both enable encryption
+8. S→C: Set Compression (optional)
+9. S→C: Login Success
+10. C→S: Login Acknowledged
 
 Minecraft Protocol Wiki https://wiki.vg/Protocol
