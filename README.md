@@ -13,9 +13,9 @@ Minecraft reverse proxy (from scratch) that can intercept packages.
 
 ### Login
 
-C→S: Handshake with Next State set to 2 (login)
-C→S: Login Start
-S→C: Encryption Request
+1. C→S: Handshake with Next State set to 2 (login)
+2. C→S: Login Start
+3. S→C: Encryption Request
 Client auth (if enabled)
 C→S: Encryption Response
 Server auth (if enabled)
