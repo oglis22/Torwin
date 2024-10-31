@@ -1,6 +1,8 @@
 # Torwin
 Minecraft reverse proxy (from scratch) that can intercept packages.
 
+(Only works for login)
+
 ## Wikki
 
 ### Packet Structure
